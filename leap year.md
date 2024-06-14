@@ -17,4 +17,4 @@ year = int(input())
 ## 呼叫leap函數，傳入輸入的年份，並將結果打印出來
 print(leap(year))
 # 程式截圖:
-![ex-3判斷閏年截圖]()
+![ex-3判斷閏年截圖](https://github.com/aY-Dling/-final-exam/blob/main/ex.3%E9%96%8F%E5%B9%B4.png?raw=true)
