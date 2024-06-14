@@ -1,4 +1,4 @@
-# 南華大學Python程式設計-期中報告
+# 南華大學Python程式設計-期末報告
 11124208王品雯、11124209蔡岱伶
 
 # ex-4題目:
@@ -27,13 +27,12 @@ def sqrt_binary(n, epsilon):
 ## 如果中點的平方大於n，移動上界
         else:
             high = mid
-    
 ## 返回中點，作為近似的平方根
     return (low + high) / 2
 
-## 讀取用戶輸入的字串，用戶輸入格式應為"n,epsilon"
+## 讀取輸入的字串，輸入格式應為n,epsilon
 input_str = input("請輸入實數和計算精度： ")
-## 將輸入字串以逗號為分隔符分割成兩個部分
+## 將輸入字串以逗號為分割成兩個部分
 n_str, epsilon_str = input_str.split(',')
 ## 將分割出的字串轉換為浮點數
 n = float(n_str)
