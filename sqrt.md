@@ -15,9 +15,8 @@ def sqrt_binary(n, epsilon):
 ## 初始區間設定為[0, n+0.25]
     low = 0
     high = n + 0.25
-## 使用二分查找法求平方根，當區間的長度大於精度時繼續迭代
+## 使用二分查找法求平方根，當區間的長度大於精度時繼續迭代，計算區間的中點
     while high - low > epsilon:
-## 計算區間的中點
         mid = (low + high) / 2
 ## 如果中點的平方與n的差值在精度範圍內，返回中點
         if abs(mid * mid - n) <= epsilon:
