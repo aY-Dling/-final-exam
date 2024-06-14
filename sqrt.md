@@ -51,4 +51,4 @@ print(f"{sqrt_custom:.8f}")  # 輸出自定義函數計算的平方根
 print(f"{sqrt_math:.8f}")  # 輸出math.sqrt函數計算的平方根
 
 # 程式截圖:
-![ex-4二分法求平方根截圖]()
+![ex-4二分法求平方根截圖](https://github.com/aY-Dling/-final-exam/blob/main/sqrt.png?raw=true)
