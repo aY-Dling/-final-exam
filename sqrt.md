@@ -10,7 +10,7 @@
 # 程式碼如下:
 ## 導入math庫以便使用math.sqrt函數
 import math
-
+## 定義函數sqrt_binary，參數為n, epsilon
 def sqrt_binary(n, epsilon):
 ## 初始區間設定為[0, n+0.25]
     low = 0
